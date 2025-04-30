@@ -8,7 +8,7 @@ private let isDevice = {
   #else
       return true
   #endif
-}
+}()
 
 public class SwiftVibratePlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
